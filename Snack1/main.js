@@ -10,3 +10,11 @@ const biciclette = [
   { nome: "Trek Émonda SLR", peso: 6.9 },
   { nome: "Giant TCR Advanced SL", peso: 7.0 },
 ];
+
+const biciLeggera = biciclette[0];
+
+for (let i = 1; i < biciclette.length; i++) {
+  if (biciclette[i].peso < biciLeggera.peso) {
+    biciLeggera = biciclette[i];
+  }
+}
