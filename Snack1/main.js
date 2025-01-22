@@ -18,3 +18,7 @@ for (let i = 1; i < biciclette.length; i++) {
     biciLeggera = biciclette[i];
   }
 }
+
+console.log(
+  `la bici con il peso minore è la ${biciLeggera.nome} con il peso di ${biciLeggera.peso}`
+);
