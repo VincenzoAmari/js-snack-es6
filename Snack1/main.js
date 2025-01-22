@@ -11,7 +11,7 @@ const biciclette = [
   { nome: "Giant TCR Advanced SL", peso: 7.0 },
 ];
 
-const biciLeggera = biciclette[0];
+let biciLeggera = biciclette[0];
 
 for (let i = 1; i < biciclette.length; i++) {
   if (biciclette[i].peso < biciLeggera.peso) {
