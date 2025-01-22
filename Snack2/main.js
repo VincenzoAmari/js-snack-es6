@@ -23,3 +23,14 @@ for (let i = 0; i < squadre.length; i++) {
   // Falli
   squadre[i].falliSubiti = getRandomNumber(1, 50);
 }
+
+const squadreStampa = [];
+for (let i = 0; i < squadre.length; i++) {
+  squadreStampa.push({
+    nome: squadre[i].nome,
+    falliSubiti: squadre[i].falliSubiti,
+  });
+}
+
+console.log("Array iniziale:", squadre);
+console.log("Array Finale:", squadreStampa);
